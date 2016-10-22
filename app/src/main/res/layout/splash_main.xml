@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/ic_mj"
+    android:fitsSystemWindows="true">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+<ProgressBar
+android:id="@+id/splashProgressBar"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="10dp"
+android:layout_marginBottom="10dp"
+android:layout_gravity="center"
+android:visibility="visible"
+
+android:scrollbarStyle="insideInset"
+android:indeterminate="false"
+    />
+
+    <Button
+        android:id="@+id/tryAgain"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/try_again"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:gravity="center"
+        android:visibility="visible"
+        android:textColor="@color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/button_corner"
+        android:foreground="?android:attr/selectableItemBackground"/>
+
+</LinearLayout>
+</android.support.v4.widget.DrawerLayout>
